@@ -1,0 +1,13 @@
+prefix=D:/Krish ML courses/ML Course/venvMLcourse/Library
+exec_prefix=D:/Krish ML courses/ML Course/venvMLcourse/Library
+libdir=D:/Krish ML courses/ML Course/venvMLcourse/Library/lib
+sharedlibdir=D:/Krish ML courses/ML Course/venvMLcourse/Library/lib
+includedir=D:/Krish ML courses/ML Course/venvMLcourse/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
